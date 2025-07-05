@@ -54,6 +54,7 @@ body {
   height: 80px;
   font-family: 'Poppins', sans-serif !important;
   overflow: visible;
+  background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
 }
 
 .header-logo img {
@@ -326,6 +327,7 @@ body {
 
   margin-bottom: 40px;
   padding-left: 80px;
+  background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
 }
 
 .partners-bg-wrap {
@@ -456,7 +458,8 @@ body {
 
 .hero-pattern-bg {
   position: relative;
-  background-color: #0a0a0a;
+  background-color: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
+
   background-image: url("data:image/svg+xml;utf8,<svg width='40' height='40' viewBox='0 0 40 40' fill='none' xmlns='http://www.w3.org/2000/svg'><rect x='0' y='0' width='40' height='40' fill='none'/><path d='M 40 0 L 0 0 L 0 40' stroke='%232a3759' stroke-width='1'/></svg>");
   background-size: 40px 40px;
   background-repeat: repeat;
@@ -475,6 +478,8 @@ body {
   margin-top: 90px;
   margin-left: 80px;
   gap: 60px;
+  background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
+
 }
 
 .explore-img-col {
@@ -1953,6 +1958,12 @@ html, body, .services-container, .hero-pattern-bg, .services-hero-row {
   max-width: 100vw !important;
   overflow-x: hidden !important;
   box-sizing: border-box !important;
+}
+.services-container{
+  background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
+}
+.hero-pattern-bg{
+  background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
 }
 
 @media (max-width: 480px) {

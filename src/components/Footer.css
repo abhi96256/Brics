@@ -7,13 +7,14 @@ body, html, * {
 }
 
 html, body {
-  background: #0A0A0A !important;
+  background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F) !important;
 }
 
 .footer-section {
   margin: 32px;
-  background: #000; /* fallback for behind the gradient */
-  background: linear-gradient(90deg, #181818 60%, #3a1c71 100%);
+  background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
+  /* fallback for behind the gradient */
+  background: linear-gradient(90deg, #FF8F00 10%,  #FF6F00 100%);
   color: #fff;
   padding: 2.5rem 2rem 1.5rem 2rem;
   font-family: 'Poppins', sans-serif;

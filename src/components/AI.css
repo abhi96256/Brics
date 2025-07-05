@@ -11,7 +11,7 @@ body {
 }
 
 .header-container {
-  background: #0a0a0a;
+  background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
   color: #fff;
   
   padding-bottom: 40px;
@@ -208,7 +208,7 @@ body {
 .ai-hero-section {
   width: 100%;
   position: relative;
-  background: linear-gradient(120deg, #181818 60%, #3a1c71 100%, #7e3ff2 120%);
+  background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -328,6 +328,7 @@ body {
     flex-direction: column;
     padding: 2rem 0 1rem 0;
     gap: 1.5rem;
+    background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
   }
   .ai-hero-left, .ai-hero-right {
     padding: 0;
@@ -615,7 +616,7 @@ body {
 
 .ai-growth-section {
   width: 100%;
-  background: linear-gradient(120deg, #181818 60%, #3a1c71 100%);
+  background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
   padding: 5.5rem 0 3.5rem 0;
   display: flex;
   justify-content: center;
@@ -815,7 +816,7 @@ Ai-our-projects-section {
   justify-content: center;
   align-items: center;
   padding: 3rem 0 2.5rem 0;
-  background: linear-gradient(120deg, #181818 60%, #3a1c71 100%);
+background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
 
 }
 
@@ -1058,7 +1059,7 @@ Ai-our-projects-section {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  background: linear-gradient(120deg, #181818 60%, #3a1c71 100%);
+background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
   height: min-content;
 }
 
@@ -1069,6 +1070,7 @@ Ai-our-projects-section {
   justify-content: center;
   gap: 2.5rem;
   width: 100%;
+  background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
 }
 
 .section-left {
@@ -1089,6 +1091,7 @@ Ai-our-projects-section {
   .ai-multiverse-row-content {
     flex-direction: row !important;
     gap: 1rem;
+    background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
   }
   .section-left, .section-right {
     width: 50%;
@@ -1101,6 +1104,7 @@ Ai-our-projects-section {
   .ai-multiverse-row-content {
     flex-direction: row !important;
     gap: 8px !important;
+    background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
   }
   .ai-multiverse-link{
     color: #7e3ff2;
@@ -1219,6 +1223,7 @@ Ai-our-projects-section {
     gap: 2rem;
     align-items: center;
     padding: 1.2rem 0.5rem;
+    background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
   }
   .ai-multiverse-row-lottie, .ai-multiverse-row-text {
     width: 100%;
@@ -1459,7 +1464,7 @@ Ai-our-projects-section {
   align-items: center;
   background: none;
   padding: 0 0 3.5rem 0;
-  background: #0a0a0a;
+  background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
 }
 .fancy::before {
   content: " ";
@@ -1980,6 +1985,7 @@ Ai-our-projects-section {
 @media (max-width: 480px) {
   .header-container {
     padding-bottom: 10px;
+    background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
   }
   .header-nav {
     position: relative;
@@ -2012,6 +2018,7 @@ Ai-our-projects-section {
     gap: 0;
     height: auto;
     min-height: unset;
+    background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
   }
   .ai-hero-left {
     width: 50%;
@@ -2101,6 +2108,7 @@ Ai-our-projects-section {
   }
   .ai-growth-section {
     padding: 8px 0 8px 0;
+    background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
   }
   .ai-growth-content {
     flex-direction: column;
@@ -2170,12 +2178,14 @@ Ai-our-projects-section {
   }
   .ai-integration-section, .ai-multiverse-section, .ai-our-projects-section, .ai-get-section, .ai-gradient-cta-section {
     padding: 4px 0 4px 0;
+    background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
   }
   .ai-integration-card, .ai-multiverse-row-content, .ai-our-projects-grid {
     flex-direction: column !important;
     gap: 2px;
     padding: 2px 0.5px;
     max-width: 100vw;
+    background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
   }
   .ai-integration-title, .ai-multiverse-heading, .ai-our-projects-heading, .ai-get-text h2, .ai-gradient-cta-heading {
     font-size: 0.8rem;
@@ -2409,6 +2419,7 @@ Ai-our-projects-section {
 @media (max-width: 480px) {
   .ai-growth-section {
     padding: 8px 0 8px 0;
+    background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
   }
   .ai-growth-content {
     flex-direction: row;
@@ -2541,6 +2552,7 @@ Ai-our-projects-section {
     width: 100vw !important;
     min-width: 0 !important;
     max-width: 100vw !important;
+    background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
   }
 }
 
@@ -2550,6 +2562,7 @@ Ai-our-projects-section {
     align-items: center !important;
     justify-content: center !important;
     gap: 8px !important;
+    background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
   }
   .section-right .lottie,
   .section-right canvas {
@@ -2567,6 +2580,7 @@ Ai-our-projects-section {
     align-items: center;
     justify-content: center;
     margin-bottom: 27px;
+    background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
   }
   .ai-multiverse-row-lottie, .ai-multiverse-row-text {
     width: 50%;
@@ -2700,6 +2714,7 @@ Ai-our-projects-section {
     max-width: 80px;
     border-radius: 10px;
     margin-bottom: 0;
+    background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
   }
   .ai-gradient-cta-form {
     gap: 20px;

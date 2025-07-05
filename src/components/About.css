@@ -11,7 +11,7 @@ body {
 
 .about-main {
   min-height: 100%;
-  background: #0a0a0a;
+  background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
   color: #fff;
   padding: 0;
   margin: 0;
@@ -1560,6 +1560,7 @@ justify-content: center;
   .about-main {
     padding: 0;
     margin: 0;
+    background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
   }
   .header-nav {
     flex-direction: row !important;

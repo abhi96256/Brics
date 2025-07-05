@@ -15,7 +15,8 @@ body {
 }
 
 .header-container {
-    background: #0a0a0a;
+  background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
+
     color: #fff;
     
     padding-bottom: 40px;
@@ -41,6 +42,8 @@ body {
     height: 80px;
     font-family: 'Poppins', sans-serif !important;
     overflow: visible;
+   background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
+
   }
   
   .header-logo img {
@@ -114,6 +117,8 @@ body {
     flex-direction: column;
     align-items: center;
     margin-top: 0px;
+   background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
+
   }
   
   .header-hero h1 {
@@ -127,7 +132,9 @@ body {
     }
   
   .gradient-text {
-    background: linear-gradient(90deg, #FF3BFF, #ECBFBF, #5C24FF, #D94FD5, #FF3BFF);
+  background: black;
+
+
     background-size: 300% 300%;
     -webkit-background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
@@ -162,7 +169,9 @@ body {
   }
   
   .gradient-text1 {
-    background: linear-gradient(90deg, #FF3BFF, #ECBFBF, #5C24FF, #D94FD5, #FF3BFF);
+  background: black;
+
+
     background-size: 300% 300%;
     -webkit-background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
@@ -340,7 +349,9 @@ body {
   }
   
   .trusted-heading{
-    background: linear-gradient(90deg, #FF3BFF, #ECBFBF, #5C24FF, #D94FD5, #FF3BFF);
+  background: black;
+
+
     background-size: 300% 300%;
     -webkit-background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
@@ -356,7 +367,9 @@ body {
   .how-we-work-heading {
     font-size: 1.8rem;
     letter-spacing: 1.5px;
-    background: linear-gradient(90deg, #FF3BFF, #ECBFBF, #5C24FF, #D94FD5, #FF3BFF);
+  background: black;
+
+
     background-size: 300% 300%;
     -webkit-background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
@@ -1085,7 +1098,10 @@ body {
     display: block;
     width: 0;
     height: 2px;
-    background: linear-gradient(90deg, #FF3BFF, #ECBFBF, #5C24FF, #D94FD5, #FF3BFF);
+ background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
+
+
+
     transition: width 0.3s;
     position: absolute;
     left: 0;
@@ -1096,7 +1112,10 @@ body {
     display: block;
     width: 0;
     height: 2px;
-    background: linear-gradient(90deg, #FF3BFF, #ECBFBF, #5C24FF, #D94FD5, #FF3BFF);
+ background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
+
+
+
     transition: width 0.3s;
     position: absolute;
     left: 0;
@@ -1104,7 +1123,10 @@ body {
   }
 
     .underline-btn:hover {
-      background: linear-gradient(90deg, #FF3BFF, #ECBFBF, #5C24FF, #D94FD5, #FF3BFF);
+   background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
+
+
+
       background-size: 300% 300%;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -1113,7 +1135,10 @@ body {
       text-fill-color: transparent;
     }
     .underline-btn1:hover {
-      background: linear-gradient(90deg, #FF3BFF, #ECBFBF, #5C24FF, #D94FD5, #FF3BFF);
+   background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
+
+
+
       background-size: 300% 300%;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -1340,7 +1365,10 @@ body {
   .how-we-work-heading {
     font-size: 1.4rem;
     letter-spacing: 1.5px;
-    background: linear-gradient(90deg, #FF3BFF, #ECBFBF, #5C24FF, #D94FD5, #FF3BFF);
+ background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
+
+
+
     background-size: 300% 300%;
     -webkit-background-clip: text !important;
     -webkit-text-fill-color: transparent !important;

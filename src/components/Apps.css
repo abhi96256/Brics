@@ -16,7 +16,7 @@ body {
 }
 
 .header-container {
-  background: #0a0a0a;
+  background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
   color: #fff;
   
   padding-bottom: 40px;
@@ -42,6 +42,7 @@ body {
   height: 80px;
   font-family: 'Poppins', sans-serif !important;
   overflow: visible;
+  background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
 }
 
 .header-logo img {
@@ -138,6 +139,7 @@ body {
 
   position: relative;
   z-index: 2;
+  background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
 
  
 }
@@ -1229,10 +1231,12 @@ justify-content: center;
     right: 0;
     margin-left: 0;
     margin-right: 0;
+    background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
   }
   .header-nav {
     padding: 16px 10px 0 10px;
     height: 60px;
+    background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
   }
   .header-nav {
     position: relative;
@@ -1240,6 +1244,7 @@ justify-content: center;
     align-items: center;
     padding: 16px 8px 0 8px;
     height: auto;
+    background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
   }
   
   .header-links {
@@ -1295,6 +1300,7 @@ justify-content: center;
   .apps-hero {
     padding: 1rem 0.5rem 2rem 0.5rem;
     width: 100vw;
+    background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
   }
   .apps-hero-content h1 {
     font-size: 2.1rem;

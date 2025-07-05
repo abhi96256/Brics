@@ -679,7 +679,7 @@ body, html, * {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: #0a0a0a;
+ background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
   gap: 24px;
   width: 100vw;
 }
@@ -840,6 +840,7 @@ body, html, * {
     flex-direction: column;
     min-height: unset;
     padding: 32px 0;
+    background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
   }
   .contactus-form-card, .contactus-info-card {
     border-radius: 20px;
@@ -904,6 +905,7 @@ body, html, * {
     align-items: stretch;
     justify-content: center;
     height: auto;
+    background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
   }
   .contactus-form-card,
   .contactus-info-card {
@@ -996,6 +998,7 @@ body, html, * {
   .contactus-main {
     padding: 20px 10px;
     margin-top: -23px;
+    background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
   
   }
   .contactus-info-icon {
