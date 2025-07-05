@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="footer-section floating-footer">
       <div className="footer-logo-centered">
-        <img src="/logo.png" width={200} height="auto" alt="Maydiv Logo" className="footer-logo" />
+        <img src="/logo.png" width={140} height="auto" alt="Maydiv Logo" className="footer-logo" />
       </div>
       <div className="footer-content footer-columns">
         <div className="footer-col footer-divider">

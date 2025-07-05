@@ -82,7 +82,7 @@
     letter-spacing: 0.5px;
     margin-bottom: 2px;
     text-align: center;
-    background: linear-gradient(90deg, #FF3BFF, #ECBFBF, #5C24FF, #D94FD5, #FF3BFF);
+    background: linear-gradient(90deg, #FFD54F, #FF8F00, #FF6F00, #FF8F00, #FFD54F);
     background-size: 300% 300%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -138,8 +138,8 @@
     position: relative;
   }
   .drawer-dropdown:active, .drawer-dropdown:hover {
-    background: rgba(185,131,255,0.13);
-    color: #b983ff;
+    background: rgba(255, 222, 131, 0.13);
+    color: #fff783;
     transform: translateX(4px) scale(1.04);
   }
   .drawer-dropdown-list {
@@ -148,11 +148,11 @@
     gap: 10px;
     margin-left: 12px;
     margin-top: 6px;
-    background: rgba(35, 33, 58, 0.85);
+    background: rgba(58, 54, 33, 0.85);
     border-radius: 10px;
-    border: 1px solid #b983ff33;
+    border: 1px solid #ffec8333;
     padding: 8px 0;
-    box-shadow: 0 2px 12px #b983ff22;
+    box-shadow: 0 2px 12px #ffde8322;
     animation: fadeIn 0.5s cubic-bezier(.77,0,.175,1);
   }
   .drawer-dropdown-list.open {
@@ -171,13 +171,13 @@
     gap: 8px;
   }
   .drawer-dropdown-list a:active, .drawer-dropdown-list a:hover {
-    background: rgba(185,131,255,0.13);
-    color: #b983ff;
+    background: rgba(255, 232, 131, 0.13);
+    color: #ffe283;
     transform: translateX(4px) scale(1.04);
   }
   .dropdown-icon {
     font-size: 1.1rem;
-    color: #b983ff;
+    color: #ffec83;
     margin-right: 6px;
   }
   .drawer-bottom {
@@ -247,7 +247,7 @@
   body[data-theme='light'] .drawer-list a,
   body[data-theme='light'] .drawer-dropdown,
   body[data-theme='light'] .drawer-dropdown-list a {
-    color: #23213a !important;
+    color: #3a3121 !important;
   }
   body[data-theme='light'] .drawer-list a:active,
   body[data-theme='light'] .drawer-list a:hover,
@@ -259,8 +259,8 @@
     background: #f3eaff !important;
   }
   body[data-theme='light'] .drawer-tagline {
-    color: #23213a !important;
-    background: linear-gradient(90deg, #5C24FF, #ECBFBF, #FF3BFF, #D94FD5, #5C24FF);
+    color: #3a3121 !important;
+    background: linear-gradient(90deg, #FFD54F, #FF8F00, #FF6F00, #FF8F00, #FFD54F);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;

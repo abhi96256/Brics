@@ -31,7 +31,8 @@ html, body {
   margin-top: 0.4rem;
 }
 .footer-logo{
-  margin-top: -100px;
+  margin-top: -65px;
+  margin-bottom: 35px;
 }
 
 .footer-columns {
@@ -207,6 +208,8 @@ html, body {
   .footer-logo {
     font-size: 1.2rem;
     text-align: left;
+    margin-top: -54px;
+    margin-bottom: 43px;
   }
   .footer-desc {
     font-size: 1rem;
