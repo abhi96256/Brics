@@ -321,14 +321,7 @@ body, html, * {
 }
 
 .maydiv-watermark {
-  position: absolute;
-  left: 50%;
-  bottom: 12px;
-  transform: translateX(-50%);
-  width: 85%;
-  opacity: 0.9;
-  pointer-events: none;
-  z-index: 0;
+display: none;
 }
 
 @media (max-width: 900px) {
@@ -979,8 +972,7 @@ body, html, * {
     font-size: 1rem;
   }
   .maydiv-watermark {
-    width: 60%;
-    bottom: 2px;
+   display: none;
   }
   .contactus-star-img {
     width: 90vw;
