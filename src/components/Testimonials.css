@@ -47,8 +47,8 @@ body {
 }
 
 .header-logo img {
-  height: 200px;
-  width: 200px;
+  height: 128px;
+  width: 104px;
   margin-bottom: -21px;
 
 }
@@ -670,7 +670,7 @@ margin-bottom: 23%;
     margin-top: 8px;
     background: none;
     border: none;
-    color: #4E2600;
+    color: white;
     font-size: 1.1rem;
     font-weight: 500;
     display: flex;

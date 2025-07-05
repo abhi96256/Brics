@@ -49,8 +49,8 @@ html{
 }
 
 .header-logo img {
-  height: 200px;
-  width: 200px;
+  height: 128px;
+  width: 104px;
   margin-bottom: -21px;
 
 }
@@ -1872,7 +1872,7 @@ display: none;
   font-weight: 500;
   background: none;
   border: none;
-  color:  #4E2600;
+  color:  white;
   width: 100%;
 
   cursor: pointer;
@@ -1891,7 +1891,7 @@ display: none;
   padding: 4px 0 4px 8px;
 }
 .mobile-drawer .drawer-dropdown-list a:hover {
-  color:  #4E2600;
+  color:  white;
 }
 
 .discuss-section {
