@@ -222,6 +222,7 @@ body {
   box-sizing: border-box;
   z-index: 1;
   height: 565px;
+  top: 70px;
 }
 
 .ai-hero-section::before {
