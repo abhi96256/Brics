@@ -41,9 +41,12 @@ body {
   height: 80px;
   font-family: 'Poppins', sans-serif !important;
   overflow: visible;
-  position: relative;
-  z-index: 1000;
-  background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
+ background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100vw;
+ z-index: 2000;
 }
 
 .header-logo img {
@@ -713,6 +716,7 @@ margin-bottom: 23%;
     padding: 16px 8px 0 8px;
     height: auto;
     background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
+    margin-bottom: -70px;
   }
   .header-logo {
     display: flex;

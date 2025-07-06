@@ -32,7 +32,6 @@ body {
   box-sizing: border-box;
   z-index: 1000;
 }
-
 .header-nav {
   display: flex;
   align-items: center;
@@ -43,6 +42,12 @@ body {
   height: 80px;
   font-family: 'Poppins', sans-serif !important;
   overflow: visible;
+ background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100vw;
+ z-index: 2000;
 }
 
 .header-logo img {

@@ -30,6 +30,7 @@ body {
     margin-right: -50vw;
     box-sizing: border-box;
     z-index: 1000;
+    padding-top: 80px;
   }
   
   .header-nav {
@@ -43,7 +44,11 @@ body {
     font-family: 'Poppins', sans-serif !important;
     overflow: visible;
    background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
-
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100vw;
+   z-index: 2000;
   }
   
   .header-logo img {
@@ -1180,6 +1185,8 @@ body {
     align-items: center;
     padding: 16px 8px 0 8px;
     height: auto;
+    margin-top: -70px;
+  
   }
   .header-logo {
     display: flex;

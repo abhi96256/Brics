@@ -250,7 +250,7 @@ const Apps = () => {
                   autoplay
                   loop
                   src="/Appdev.json"
-                  style={{ maxWidth: '440px', width: '100vw', minHeight: '460px', height: '240px', marginRight: '300px' }}
+                  style={{ maxWidth: '300px', width: '100vw', minHeight: '460px', height: '240px', marginRight: '300px',marginLeft:'90px' }}
                 />
               </div>
               <div className="appdev-content">
