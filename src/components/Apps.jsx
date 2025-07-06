@@ -139,7 +139,7 @@ const Apps = () => {
       <div className="apps-container">
         <div className="apps-hero" style={{position:'relative',width:'100vw'}}>
           <div className="apps-hero-content" >
-            <h1>Develop your<br /><span className="purple-text">Apps with Maydiv</span></h1>
+            <h1>Develop your<br /><span className="purple-text">Apps with Bricks</span></h1>
             <p className="hero-subtitle">App Development Bringing Your Ideas to Life</p>
             <p className="hero-description">Innovate, Develop, Launch Your Vision with Our App Expertise</p>
             <div className="expertise-image">

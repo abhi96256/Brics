@@ -104,7 +104,7 @@ export default function About() {
           <span className="about-gradient-blue">About Us</span>
         </h1>
         <p className="about-subheading">
-          Step into the future with maydiv! I offer a range of digital solutions that can transform your business landscape. With our expertise, your digital needs will be met with creativity and innovation.
+          Step into the future with Bricks! I offer a range of digital solutions that can transform your business landscape. With our expertise, your digital needs will be met with creativity and innovation.
         </p>
         <div className="about-btn-row">
           <Link href="/ai"><button className="fancy1"><span className="top-key"></span><span className="text">Get started</span><span className="bottom-key-1"></span><span className="bottom-key-2"></span></button></Link>
@@ -157,32 +157,11 @@ export default function About() {
         <Image src="/Bg.png" alt="Decorative Right Dots" width={120} height={90} className="about-features-bg-right" />
       </section>
       {/* Integration Section */}
-      <section className="about-integration-section">
-        <div className="about-integration-content">
-          <Image src="/Integration.png" alt="Integration" width={420} height={420} quality={100} className="about-integration-img" />
-          <div className="about-integration-left">
-            <div className="about-story-card about-story-flex">
-              <div className="about-story-main">
-                <div className="about-integration-label">Managing Director</div>
-                <div className="about-integration-desc">
-                  We began our journey as a group of passionate freelancers with a vision — to transform ideas into digital reality. With no investors and just pure determination, we officially registered our company on February 28, 2025.
-                  <br /><br />
-                  From humble beginnings to growing into a full-fledged IT solutions startup, our focus remains the same: building smart, fast, and scalable digital solutions that solve real problems.
-                </div>
-              </div>
-              <div className="about-story-project">
-                <div className="about-story-project-title">Our very first project?</div>
-                <div className="about-story-project-desc">
-                  A fully functional salary management software, developed and delivered in just one week. That successful launch gave us the confidence to dream bigger — and today, we are building high-quality websites, mobile apps, and offering a wide range of IT services for startups, businesses, and individuals alike.
-                </div>
-              </div>
-            </div>
-          </div>
+     
           {/* <div className="about-integration-right">
             <Image src="/Integration.png" alt="Integration" width={420} height={420} quality={100} className="about-integration-img" />
           </div> */}
-        </div>
-      </section>
+     
       {/* Security Section */}
       <section className="about-security-section">
         <Image src="/Bg1.png" alt="Decorative Dots" width={70} height={260} className="about-security-bg-dots" />
@@ -190,7 +169,7 @@ export default function About() {
           <div className="about-security-left">
             <div className="about-security-visual">
               <div className="about-security-glow"></div>
-              <Image src="/Security.jpg" alt="Security" width={340} height={340} quality={100} className="about-security-img" />
+              <Image src="/Ravi.jpeg" alt="Security" width={340} height={340} quality={100} className="about-security-img" />
             </div>
           </div>
           <div className="about-security-right">
@@ -222,8 +201,8 @@ It all began on a train ride, when Vishal wished for an LSAT prep app that didn'
 Since then, we've been turning ideas into impactful digital products — from mobile apps to full-stack IT solutions.
           </div>
           <div className="about-team-person">
-            <div className="about-team-name">Mayank Varshney</div>
-            <div className="about-team-role">MD Maydiv Infotech</div>
+            <div className="about-team-name">Ravindra Nath Jha</div>
+            <div className="about-team-role">MD Bricks Softtech</div>
             <div className="about-team-socials">
          
               <a href="https://www.instagram.com/mayank.vy?igsh=NnRpNXN4OGF6MDI1" aria-label="Instagram"><FaInstagram /></a>
@@ -238,18 +217,14 @@ Since then, we've been turning ideas into impactful digital products — from mo
           <div className="about-team-image about-team-image-small">
           <Image src="/Ayush.jpeg" alt="Ayush" width={170} height={170} quality={100} />
           </div>
-          <div className="about-team-image about-team-image-small">
-    <Image src="/Hbp.jpg" alt="Hbp" width={170} height={170} quality={100} />
-  </div>
+     
           <div className="about-team-image about-team-image-large">
           <Image src="/Ravi.jpeg" alt="Ravi" width={170} height={170} quality={100} />
           </div>
           <div className="about-team-image about-team-image-small">
           <Image src="/Abhi.jpeg" alt="Abhi" width={170} height={170} quality={100} />
           </div>
-          <div className="about-team-image about-team-image-small">
-            <Image src="/Ashish.jpeg" alt="Team Member 6" width={170} height={170} quality={100} />
-          </div>
+        
          
         </div>
         {/* Stats Section Below Testimonials/Team */}

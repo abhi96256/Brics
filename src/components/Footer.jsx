@@ -35,8 +35,8 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom-centered">
-        <div>© 2025 Maydiv. All rights reserved.</div>
-        <div>Crafted by MayDiv Infotech</div>
+        <div>© 2025 Bricks. All rights reserved.</div>
+        <div>Crafted by Bricks Infotech</div>
       </div>
     
     </footer>

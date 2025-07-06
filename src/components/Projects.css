@@ -11,6 +11,10 @@ body, html, * {
 html{
   overflow-x: hidden;
 }
+body{
+  overflow-x: hidden;
+
+}
 
 .projects-page-container {
   padding: 0 40px 60px 40px;
@@ -20,7 +24,7 @@ html{
 }
 
 .header-container {
-  background: #0a0a0a;
+  background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
   color:  #4E2600;
   
   padding-bottom: 40px;
@@ -1578,7 +1582,7 @@ display: none;
     margin: 0 auto;
     border-radius: 8px;
     display: block;
-    box-shadow: 0 2px 12px #0004;
+  
   }
   .nextgen-girl {
     width: 90%;
@@ -1588,7 +1592,7 @@ display: none;
     margin-top: 0;
     margin-right: 0;
     display: block;
-    box-shadow: 0 2px 12px #0004;
+  
   }
   .projects-online-section {
     margin: 18px auto 0 auto;

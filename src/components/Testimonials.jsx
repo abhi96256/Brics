@@ -211,8 +211,8 @@ const Testimonials = () => {
                 <span className="customers-count">+25K</span>
               </div>
             </div>
-            <h2 className="why-maydiv-heading">Why should you choose Maydiv</h2>
-            <p className="why-maydiv-desc">At Maydiv, we blend creativity with strategy to deliver marketing that works. We don't just follow trends — we craft solutions that drive real results..</p>
+            <h2 className="why-maydiv-heading">Why should you choose Bricks</h2>
+            <p className="why-maydiv-desc">At Bricks, we blend creativity with strategy to deliver marketing that works. We don't just follow trends — we craft solutions that drive real results..</p>
             <Link href="/contact">
               <button className="why-maydiv-btn">Contact Us</button>
             </Link>

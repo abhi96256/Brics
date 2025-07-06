@@ -162,10 +162,10 @@ const AI = () => {
             <h2 className="ai-integration-title">Ai Automation & Integration</h2>
             <p className="ai-integration-desc">Ever since implementing Wonderchat on our site, I've seen up to a 70% reduction of customer support queries in my inbox."</p>
             <div className="ai-integration-user">
-              <img src="/Security.jpg" alt="Bryce Conway" className="ai-integration-avatar" />
+              <img src="/Ravi.jpeg" alt="Bryce Conway" className="ai-integration-avatar" />
               <div>
-                <div className="ai-integration-user-name">Divyanshu</div>
-                <div className="ai-integration-user-role">Founder of Maydiv</div>
+                <div className="ai-integration-user-name">Ravindra Nath Jha</div>
+                <div className="ai-integration-user-role">Founder of Bricks</div>
               </div>
             </div>
           </div>

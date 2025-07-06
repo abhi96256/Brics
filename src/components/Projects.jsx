@@ -130,9 +130,9 @@ const Projects = () => {
         <div className="projects-hero-text-wrap">
           <div className="projects-hero-glow"></div>
           <div className="projects-hero-badge">Latest integration just arrived</div>
-          <h1 className="projects-hero-heading">Develop your <br />Websites with Maydiv</h1>
+          <h1 className="projects-hero-heading">Develop your <br />Websites with Bricks</h1>
           <div className="projects-hero-subheading">
-            Elevate your site's visibility effortlessly with Maydiv, <br />where smart technology meets user-friendly SEO tools.
+            Elevate your site's visibility effortlessly with Bricks, <br />where smart technology meets user-friendly SEO tools.
           </div>
           <Link href="/contact">
           <button className="projects-hero-btn">Contact Us</button>
@@ -215,7 +215,7 @@ const Projects = () => {
       <section className="services-section">
         <div className="services-content">
           <div className="services-left">
-            <h2>Maydiv web<br />Development Services</h2>
+            <h2>Bricks web<br />Development Services</h2>
             <p>
             Crafting digital experiences that connect and convert
             </p>
