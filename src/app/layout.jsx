@@ -33,7 +33,7 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={inter.className} suppressHydrationWarning={true}>
         <Header />
         <a
           href="https://wa.me/919999999999" // Change to your WhatsApp number

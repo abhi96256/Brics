@@ -1,18 +1,7 @@
-:root {
-  --font-family: 'coco', sans-serif;
-}
-
-body, html, * {
-  font-family: var(--font-family) !important;
-}
-
-html, body {
-  background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F) !important;
-}
 
 .footer-section {
   margin: 32px;
-  background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
+  /* background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F); */
   /* fallback for behind the gradient */
   background: linear-gradient(90deg, #FF8F00 10%,  #FF6F00 100%);
   color:  #4E2600;

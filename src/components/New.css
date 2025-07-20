@@ -1,27 +1,8 @@
-:root {
-    --font-family: 'coco', sans-serif;
-  }
-  
-  body, html, * {
-    font-family: var(--font-family) !important;
-  }
-  body {
-    margin: 0px;
-  }
-  
-  .header-container {
-    background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
-    color:  #4E2600;
-    
+
+  .header-container {    
     padding-bottom: 40px;
     position: relative;
     overflow: hidden;
-    width: 100vw;
-    max-width: 100vw;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
     box-sizing: border-box;
     z-index: 1000;
   }
@@ -36,11 +17,10 @@
     height: 80px;
     font-family: 'Poppins', sans-serif !important;
     overflow: visible;
-   background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
+   /* background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F); */
    position: fixed;
    top: 0;
    left: 0;
-   width: 100vw;
    z-index: 2000;
   }
   
@@ -369,7 +349,7 @@
   
 .projects-page {
   min-height: 100vh;
-  background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
+  /* background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F); */
   padding: 40px 0;
   font-family: 'Inter', sans-serif;
   overflow: hidden;
@@ -810,7 +790,7 @@
 }
 
 .services-container {
-  background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
+  /* background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F); */
 }
 
 .projects-hero-flex {
@@ -897,7 +877,7 @@
     width: 100vw !important;
     max-width: 100vw !important;
     overflow-x: hidden !important;
-    background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
+    /* background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F); */
   }
   .projects-page {
     padding: 0;
@@ -905,7 +885,7 @@
     overflow-x: visible !important;
     width: 100vw;
     margin-top: -90px;
-    background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
+    /* background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F); */
   }
   .projects-title {
     font-size: 1.1rem;

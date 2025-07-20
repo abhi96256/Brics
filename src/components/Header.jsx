@@ -1,13 +1,13 @@
 'use client';
 
 import React, { useRef, useEffect, useState } from 'react';
-import { FaInstagram, FaFacebook, FaRocket, FaPhone, FaSync, FaCode, FaPalette, FaBullhorn, FaMobileAlt, FaBrain, FaGithub, FaBars, FaTimes, FaChevronDown } from 'react-icons/fa';
+import { FaSync } from 'react-icons/fa';
 import Image from 'next/image';
 import Link from 'next/link';
 
 import TrustedLogos from './TrustedLogos';
+import Navbar from './Navbar';
 import './Header.css';
-import MobileDrawer from './MobileDrawer';
 
 function Counter({ start, end, duration = 2000 }) {
   const [value, setValue] = useState(start);
@@ -33,19 +33,6 @@ const Header = () => {
   const howWeWorkRef = useRef(null);
   const statsRef = useRef(null);
   const [showCounters, setShowCounters] = useState(false);
-  const [dropdownOpen, setDropdownOpen] = useState(false);
-  const dropdownTimeout = useRef(null);
-  const [menuOpen, setMenuOpen] = useState(false);
-  const [drawerOpen, setDrawerOpen] = useState(false);
-  const [drawerDropdownOpen, setDrawerDropdownOpen] = useState(false);
-  const [isMobile, setIsMobile] = useState(false);
-
-  useEffect(() => {
-    const checkMobile = () => setIsMobile(window.innerWidth <= 480);
-    checkMobile();
-    window.addEventListener('resize', checkMobile);
-    return () => window.removeEventListener('resize', checkMobile);
-  }, []);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -60,69 +47,10 @@ const Header = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const handleDropdownEnter = () => {
-    if (dropdownTimeout.current) {
-      clearTimeout(dropdownTimeout.current);
-    }
-    setDropdownOpen(true);
-  };
-
-  const handleDropdownLeave = () => {
-    dropdownTimeout.current = setTimeout(() => {
-      setDropdownOpen(false);
-    }, 350);
-  };
-
   return (
     <>
       <header className="header-container">
-        <nav className="header-nav">
-          <div className="header-logo">
-            <Link href="/">
-            <Image src="/logo.png" alt="MayDiv Logo" width={150} height={50} quality={100} unoptimized />
-            </Link>
-          </div>
-          {!isMobile && (
-            <ul className="header-links">
-              <li><Link href="/">Home</Link></li>
-              <li className="dropdown"
-                onMouseEnter={handleDropdownEnter}
-                onMouseLeave={handleDropdownLeave}
-                onFocus={handleDropdownEnter}
-                onBlur={handleDropdownLeave}
-              >
-                <span className="dropdown-toggle" style={{ marginBottom: '10px' }}>Services</span>
-                <ul className="dropdown-menu" style={{
-                  display: dropdownOpen ? 'flex' : 'none',
-                  opacity: dropdownOpen ? 1 : 0,
-                  pointerEvents: dropdownOpen ? 'auto' : 'none',
-                  transform: dropdownOpen ? 'translateX(-43%) translateY(0) scale(1)' : 'translateX(-50%) translateY(10px) scale(0.95)'
-                }}>
-                  <li><Link href="/web-development"><span><FaCode className="dropdown-icon" /> Web Development</span></Link></li>
-                  <li><Link href="/apps/ui-ux"><span><FaPalette className="dropdown-icon" /> UI/UX Design</span></Link></li>
-                  <li><Link href="/marketing"><span><FaBullhorn className="dropdown-icon" /> Social Media and Marketing</span></Link></li>
-                  <li><Link href="/app-development"><span><FaMobileAlt className="dropdown-icon" /> App Development</span></Link></li>
-                  <li><Link href="/ai"><span><FaBrain className="dropdown-icon" /> Artificial Intelligence</span></Link></li>
-                </ul>
-              </li>
-              <li><Link href="/projects">Projects</Link></li>
-              <li><Link href="/contact">Contact</Link></li>
-              <li><Link href="/about">About Us</Link></li>
-            </ul>
-          )}
-          <MobileDrawer
-            drawerOpen={drawerOpen}
-            setDrawerOpen={setDrawerOpen}
-            drawerDropdownOpen={drawerDropdownOpen}
-            setDrawerDropdownOpen={setDrawerDropdownOpen}
-            isMobile={isMobile}
-          />
-          <div className="header-socials">
-            <a href="https://www.instagram.com/maydiv_infotech?igsh=YjE4YnB5NmJ0MzFy" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
-            <a href="https://www.facebook.com/profile.php?id=615720000000000" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
-            <a href="https://github.com/" aria-label="GitHub" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
-          </div>
-        </nav>
+        {/* <Navbar /> */}
 
         <div className="header-hero">
           <h1>
@@ -151,8 +79,6 @@ const Header = () => {
               <span className="stat-label">Startup Raised</span>
             </div>
           </div>
-
-          
 
           <div className="how-we-work-section">
             <div className="how-we-work-heading gradient-text2">HOW WE WORK</div>

@@ -1,13 +1,6 @@
-:root {
-  --font-family: 'coco', sans-serif;
-}
-
-body, html, * {
-  font-family: var(--font-family) !important;
-}
 
 .best-project-section {
-  background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F);
+  /* background: linear-gradient(to right, #FF6F00, #FF8F00, #FFD54F); */
 
   color: #fff;
   

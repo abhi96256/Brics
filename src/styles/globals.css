@@ -29,8 +29,7 @@ body {
   color: var(--foreground);
   --font-family: 'coco', sans-serif;
   max-width: 1200px;
- 
-  
+  overflow-x: hidden !important;
 }
 
 .trusted-heading {

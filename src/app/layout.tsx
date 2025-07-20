@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Maydiv',
-  description: 'Maydiv Website',
+  title: 'Bricks',
+  description: 'Bricks Website',
   icons: {
     icon: '/Lo.png',
   },
@@ -14,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body suppressHydrationWarning={true}>{children}</body>
     </html>
   )
 }
