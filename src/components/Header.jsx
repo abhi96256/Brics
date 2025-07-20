@@ -6,7 +6,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import TrustedLogos from './TrustedLogos';
-import Navbar from './Navbar';
 import './Header.css';
 
 function Counter({ start, end, duration = 2000 }) {
@@ -50,7 +49,6 @@ const Header = () => {
   return (
     <>
       <header className="header-container">
-        {/* <Navbar /> */}
 
         <div className="header-hero">
           <h1>
